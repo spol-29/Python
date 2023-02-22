@@ -9,7 +9,7 @@ class TicTacToe:
         for i in range(3):
             row = []
             for j in range(3):
-                row.append('-')
+                row.append('-') # - represents empty spot
             self.board.append(row)
 
     def get_random_first_player(self):
@@ -88,10 +88,9 @@ class TicTacToe:
             print(f"Player {player} turn")
 
             self.show_board()
-
-            row, col = list(
-                map(int, input("Enter row and column numbers to fix spot(Y X): ").split()))
-                
+            print("This game is about stealing the opponents spot on the grid and winning the game!")
+            print("Enter the ROW followed by a space then input the COLUMN number")
+            row, col = list(map(int, input("Enter row and column numbers to fix spot(Y X): ").split()))
                 
             print()
 
