@@ -24,7 +24,7 @@ class TicTacToe:
         n = len(self.board)
 
         for i in range(n):
-            win = True
+            win = True 
             for j in range(n):
                 if self.board[i][j] != player:
                     win = False
