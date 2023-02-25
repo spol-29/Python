@@ -1,16 +1,12 @@
 from random import randint
 
-#create a list of play options
 t = ["Rock", "Paper", "Scissors"]
 
-#assign a random play to the computer
 computer = t[randint(0,2)]
 
-#set player to False
 player = False
 
 while player == False:
-#set player to True
     player = input("Rock, Paper, Scissors?")
     if player == computer:
         print("Tie!")
@@ -31,7 +27,6 @@ while player == False:
             print("You win!", player, "cut", computer)
     else:
         print("That's not a valid play. Check your spelling!")
-    #player was set to True, but we want it to be False so the loop continues
     player = False
     computer = t[randint(0,2)]
 t = ["Rock", "Paper", "Scissors"]
@@ -40,7 +35,6 @@ computer = t[randint(0,2)]
 
 player = False
 while player == False:
-#set player to True
     player = input("Rock, Paper, Scissors?")
     if player == computer:
         print("Tie!")
@@ -61,6 +55,5 @@ while player == False:
             print("You win!", player, "cut", computer)
     else:
         print("That's not a valid play. Check your spelling!")
-    #player was set to True, but we want it to be False so the loop continues
     player = False
     computer = t[randint(0,2)]

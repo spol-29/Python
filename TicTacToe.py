@@ -9,8 +9,8 @@ class TicTacToe:
         for i in range(3):
             row = []
             for j in range(3):
-                row.append('-') # - represents empty spot
-            self.board.append(row)
+                row.append('-')
+            self.board.append(row) 
 
     def get_random_first_player(self):
         return random.randint(0, 1)

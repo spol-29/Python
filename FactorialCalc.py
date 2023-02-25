@@ -3,6 +3,7 @@ def factorial(n):
     return 1
   else:
     return n * factorial(n - 1)
-x = input("Enter an integer >>>")
+x = input("Enter an integer to find the factorial(!) >>>")
 y = int(x)
+print("Factorial of int is >>>")
 print(factorial(y))
