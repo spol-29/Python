@@ -121,6 +121,7 @@ def show_some(player,dealer):
     print('',dealer.cards[1])
     print("\nPlayer's Hand:", *player.cards, sep='\n ')
 
+
 def show_all(player,dealer):
     print("\nDealer's Hand:", *dealer.cards, sep='\n ')
     print("Dealer's Hand =",dealer.value)
