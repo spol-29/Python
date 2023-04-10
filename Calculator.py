@@ -32,11 +32,16 @@ while True:
 
         elif choice == '3':
             print(num1, "*", num2, "=", multiply(num1, num2))
-
         elif choice == '4':
             print(num1, "/", num2, "=", divide(num1, num2))
-        next_calculation = input("Let's do next calculation? (yes/no): ")
-        if next_calculation == "no":
+        next_calculation = input("Let's do next calculation? (y/n): ")
+        if next_calculation == "n":
           break
+        elif next_calculation == "y":
+            continue
+        else:
+            print("Invalid Input")
+            print("Exiting the program")
+            break
     else:
         print("Invalid Input")
