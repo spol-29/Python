@@ -30,7 +30,6 @@ while player == False:
     player = False
     computer = t[randint(0,2)]
 t = ["Rock", "Paper", "Scissors"]
-computer = t[randint(0,2)]
 
 
 player = False
