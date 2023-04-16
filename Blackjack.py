@@ -157,7 +157,7 @@ def push(player,dealer):
 
 while True:
     print('Welcome to BlackJack! Get as close to 21 as you can without going over!\n\
-    Dealer hits until she reaches 17. Aces count as 1 or 11.')
+    Dealer hits until she reaches 17. Aces count as 11.')
 
     deck = Deck()
     deck.shuffle()
