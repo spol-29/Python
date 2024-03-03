@@ -5,5 +5,4 @@ with open('home.html', 'r') as html_file:
     soup = BeautifulSoup(content, 'lxml')
     tags = soup.find('h5')
     print(tags)
-    print(tags.prettify())
-    
+    print(tags.prettify()) 

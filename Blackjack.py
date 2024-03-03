@@ -128,6 +128,8 @@ def show_all(player,dealer):
     print("\nPlayer's Hand:", *player.cards, sep='\n ')
     print("Player's Hand =",player.value)
 
+print()
+
 
 
 def player_busts(player,dealer,chips):
@@ -152,7 +154,7 @@ def push(player,dealer):
 
 while True:
     print('Welcome to BlackJack! Get as close to 21 as you can without going over!\n\
-    Dealer hits until she reaches 17. Aces count as 11.')
+    Dealer hits until she reaches 17. Aces count as 1 or 11.')
 
     deck = Deck()
     deck.shuffle()
